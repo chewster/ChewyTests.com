@@ -1,0 +1,31 @@
+<html ng-app="app">
+    <div class="jumbotron text-center home-banner">
+        <h1>Spotify API Demo</h1>
+    </div>
+    <head>
+        <script src="lib/script/jquery.min.js"></script>
+            <script src="include/js/autocomplete.js"></script>
+    <!--<script type="text/javascript" src="script/dropdown.js"></script>-->
+    <script src="include/js/spotify.js"></script>
+    </head>
+    <body>
+    <div ng-controller="MyCtrl">
+        <div class="main">
+            <h2>Search for songs:</h2>
+            <autocomplete ng-model="result" attr-placeholder="type to search songs..." click-activation="true" data="movies" on-type="searchSong" on-select="doSomethingElse"></autocomplete>
+            <select ng-model="selectedName" ng-change="optionChange(selectedName)" ng-options="filter for filter in filters">
+            </select>
+        </div>
+        <br>
+            Songs:
+            <div id="songs" style="height: 200px; width: 300px; overflow: auto;" class="ui-widget-content"></div>
+        </div>
+
+
+    </div>
+    <script src="/include/js/autocomplete.js"></script>
+    <!--<script type="text/javascript" src="script/dropdown.js"></script>-->
+    <script src="/include/js/spotify.js"></script>
+
+    </body>
+</html>

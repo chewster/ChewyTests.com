@@ -1,0 +1,19 @@
+[09-Jan-2017 20:59:41 UTC] PHP Fatal error:  Call to undefined function save_mod_rewrite_rules() in /home5/chewytes/public_html/testingSomeStuff/wp-content/plugins/mojo-marketplace-wp-plugin/inc/base.php on line 26
+[09-Jan-2017 21:00:41 UTC] wizard_viewed
+[09-Jan-2017 21:08:03 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home5/chewytes/public_html/testingSomeStuff/wp-content/plugins/optinmonster/OMAPI/Widget.php on line 177
+[09-Jan-2017 21:10:11 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home5/chewytes/public_html/testingSomeStuff/wp-content/plugins/optinmonster/OMAPI/Widget.php on line 177
+[10-Jan-2017 16:46:10 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home5/chewytes/public_html/testingSomeStuff/wp-content/plugins/optinmonster/OMAPI/Widget.php on line 177
+[10-Jan-2017 16:47:20 UTC] wizard_started
+[10-Jan-2017 16:47:23 UTC] wizard_step_completed
+[10-Jan-2017 16:47:28 UTC] wizard_step_completed
+[10-Jan-2017 16:47:29 UTC] wizard_step_viewed
+[10-Jan-2017 16:47:29 UTC] wizard_step_viewed
+[10-Jan-2017 16:47:31 UTC] wizard_step_completed
+[10-Jan-2017 16:47:34 UTC] wizard_step_viewed
+[10-Jan-2017 16:47:35 UTC] wizard_step_completed
+[10-Jan-2017 16:47:37 UTC] wizard_step_viewed
+[10-Jan-2017 16:47:42 UTC] wizard_step_viewed
+[10-Jan-2017 16:47:42 UTC] wizard_step_skipped
+[10-Jan-2017 16:47:47 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home5/chewytes/public_html/testingSomeStuff/wp-content/plugins/optinmonster/OMAPI/Widget.php on line 177
+[10-Jan-2017 16:59:26 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home5/chewytes/public_html/testingSomeStuff/wp-content/plugins/optinmonster/OMAPI/Widget.php on line 177
+[10-Jan-2017 17:01:13 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home5/chewytes/public_html/testingSomeStuff/wp-content/plugins/optinmonster/OMAPI/Widget.php on line 177

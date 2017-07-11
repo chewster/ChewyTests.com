@@ -1,0 +1,23 @@
+/**
+ * Manages plugin custom columns displayed in list tables.
+ * HiDPI Displays
+ */
+@media screen and ( max-width: 782px ) {
+	
+	.fixed .column-title{
+		width:40%;	
+	}
+	
+	.fixed .column-content, /* slider content table column */
+	.fixed .column-video, /* slide video column */
+	.fixed .column-image /* slide image column */{
+		display:none;
+	}
+	
+}
+	
+.fa_wpml_language.active{
+	font-weight:bold;
+	color:#000;
+	text-decoration:none;
+}	

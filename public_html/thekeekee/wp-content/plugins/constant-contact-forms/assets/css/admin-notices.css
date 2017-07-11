@@ -1,0 +1,24 @@
+.updated.ctct-admin-notice,
+.error.ctct-admin-notice {
+  padding: 1em 38px 1em 1em;
+  position: relative;
+}
+
+a.ctct-notice-dismiss {
+  text-decoration: none;
+}
+
+#ctct-admin-notice-activation {
+  padding: 1em 1em 0 1em;
+}
+
+#ctct-admin-notice-activation .ctct-notice-intro {
+  max-width: 600px;
+  line-height: 1.5em;
+}
+
+#ctct-admin-notice-activation .ctct-notice-button,
+#ctct-admin-notice-activation .ctct-notice-button:active {
+  vertical-align: middle;
+  margin: .5em;
+}

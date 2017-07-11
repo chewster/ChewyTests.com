@@ -1,0 +1,94 @@
+
+/* BEGIN FEATURED ARTICLES AUTOMATIC COLOR SCHEME */
+/* Slideshow container */
+.fa_slider_simple.dark {
+	border-width:0px;/*container*/
+	border-style:none;/*container*/
+	border-color:transparent;/*container*/
+	background-color:#020202;/*container*/
+}
+/* Slide title */
+.fa_slider_simple.dark .fa_slide_content h2{
+	font-size:2.5em;/*slide_title*/
+	color:#d8d8d8;/*slide_title*/
+	font-weight:300;/*slide_title*/
+	-moz-text-shadow:0px 0px 0px ;/*slide_title*/
+	-webkit-text-shadow:0px 0px 0px ;/*slide_title*/
+	-o-text-shadow:0px 0px 0px ;/*slide_title*/
+	-ms-text-shadow:0px 0px 0px ;/*slide_title*/
+	text-shadow:0px 0px 0px ;/*slide_title*/
+}
+/* Slide title anchor */
+.fa_slider_simple.dark .fa_slide_content h2 a{
+	color:#d8d8d8;/*slide_title_anchor*/
+	text-decoration:none;/*slide_title_anchor*/
+}
+/* Slide text */
+.fa_slider_simple.dark .fa_slide_content div.description{
+	font-size:1em;/*slide_text*/
+	color:#ffffff;/*slide_text*/
+	font-weight:400;/*slide_text*/
+}
+/* Slide read more link */
+.fa_slider_simple.dark .fa_slide_content .fa_read_more{
+	font-size:1em;/*read_more*/
+	color:#020202;/*read_more*/
+	font-weight:300;/*read_more*/
+	text-decoration:none;/*read_more*/
+	background-color:#dbdbdb;/*read_more*/
+}
+/* Play video link */
+.fa_slider_simple.dark .fa_slide_content .fa_play_video{
+	font-size:1em;/*content_play_video_link*/
+	color:#ffffff;/*content_play_video_link*/
+	text-decoration:underline;/*content_play_video_link*/
+}
+/* Video container */
+.fa_slider_simple.dark .fa_image .fa-video-wrap .fa-video{
+	background-color:#000000;/*video_container*/
+	border-width:1px;/*video_container*/
+	border-style:solid;/*video_container*/
+	border-color:#9999999;/*video_container*/
+}
+/* Play video image link */
+.fa_slider_simple.dark .fa_image .play-video{
+	color:#FFFFFF;/*video_container_play_video*/
+	-moz-border-radius:5px;/*video_container_play_video*/
+	-webkit-border-radius:5px;/*video_container_play_video*/
+	-o-border-radius:5px;/*video_container_play_video*/
+	-ms-border-radius:5px;/*video_container_play_video*/
+	border-radius:5px;/*video_container_play_video*/
+}
+/* Navigation forward */
+.fa_slider_simple.dark .go-forward{
+	color:#3d3d3d;/*nav_right*/
+	background-color:#969696;/*nav_right*/
+}
+/* Navigation back */
+.fa_slider_simple.dark .go-back{
+	color:#3d3d3d;/*nav_left*/
+	background-color:#969696;/*nav_left*/
+}
+/* Navigation bottom */
+.fa_slider_simple.dark .main-nav .fa-nav{
+	color:#f7f7f7;/*nav_bottom_idle*/
+	-moz-text-shadow:0px 0px 0px ;/*nav_bottom_idle*/
+	-webkit-text-shadow:0px 0px 0px ;/*nav_bottom_idle*/
+	-o-text-shadow:0px 0px 0px ;/*nav_bottom_idle*/
+	-ms-text-shadow:0px 0px 0px ;/*nav_bottom_idle*/
+	text-shadow:0px 0px 0px ;/*nav_bottom_idle*/
+}
+/* Navigation bottom mouse over */
+.fa_slider_simple.dark .main-nav .fa-nav:hover{
+	color:#a3a3a3;/*nav_bottom_hover*/
+}
+/* Navigation bottom current item */
+.fa_slider_simple.dark .main-nav .fa-nav.active{
+	color:#bababa;/*nav_bottom_active*/
+}
+/* Slide timer (on autoslide) */
+.fa_slider_simple.dark .progress-bar{
+	background-color:#c4c4c4;/*progress_bar*/
+}
+
+/* END FEATURED ARTICLES AUTOMATIC COLOR SCHEME */

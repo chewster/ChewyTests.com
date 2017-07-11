@@ -1,0 +1,5 @@
+/* Some harm reduction for big images in small widget areas */
+.widget_a_featured_page_widget img {
+	height: auto;
+	max-width: 100%;
+}

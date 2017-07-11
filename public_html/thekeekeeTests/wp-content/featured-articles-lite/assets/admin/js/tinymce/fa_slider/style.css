@@ -1,0 +1,20 @@
+/**
+ * TinyMCE slider shortcode output for visual editor.
+ */
+.fa_pro.fa-slider{
+	height:50px; 
+	width:99%; 
+	background:url(ico.png) center center no-repeat #EEE;
+	border:1px #999 solid;
+	cursor:pointer;
+}
+
+.fa-slider:before{
+	content: "\f181";
+	font-family:'dashicons';
+	font-size:20px;
+}
+
+.fa-slider.wp-slider-selected{
+	background-color:#d8d8d8;
+}

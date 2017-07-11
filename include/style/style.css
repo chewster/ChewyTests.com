@@ -1,0 +1,126 @@
+ul {
+    list-style: none;
+}
+.home-banner {
+    background-color: red;
+    -webkit-animation-name: change-color; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    animation-name: change-color;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+div.smileyface {
+    width: 300px;
+    height: 300px;
+    position: relative;
+    border-radius: 150px;
+    -webkit-border-radius: 150px;
+    -moz-border-radius: 150px;
+    display: block;
+    background-color: #ffe632;
+    background: -webkit-gradient(linear, left top, left bottom, from(#fffe8d), to(#f6d23e));
+    background: -moz-linear-gradient(top,  #fffe8d,  #f6d23e);  
+    box-shadow: inset 0px -14px 14px rgba(0, 0, 0, .3), 0px 2px 20px rgba(0, 0, 0, .6);
+    -webkit-box-shadow: inset 0px -14px 14px rgba(0, 0, 0, .3), 0px 2px 20px rgba(0, 0, 0, .6);
+    -moz-box-shadow: inset 0px -14px 14px rgba(0, 0, 0, .3), 0px 2px 20px rgba(0, 0, 0, .6);
+      position: relative;
+    -webkit-animation-name: moving-around;
+    -webkit-animation-duration: 5s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-delay: 2s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    animation-name: moving-around;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+p.eyes {
+    width: 50px;
+    height: 80px;
+    background: #222;
+    border-radius: 100px/160px;
+    -webkit-border-radius: 100px 160px;
+    -moz-border-radius: 100px/160px;
+    position: absolute;
+    top: 40px;
+    box-shadow: 0 2px 0 rgba(255,255,255, 0.8);
+    -webkit-box-shadow: 0 2px 0 rgba(255,255,255, 0.8);
+    -moz-box-shadow: 0 2px 0 rgba(255,255,255, 0.8);
+}   
+p.eyes.lefteye {
+    left: 75px;
+}        
+p.eyes.righteye {
+    right: 75px;
+}
+        
+div.smile {
+    width: 200px;
+    height: 70px;
+    border: 10px solid #222;
+    border-top: 0;
+    background: rgba(0,0,0,0);
+    -moz-border-radius: 0 0 120px 120px / 0 0 90px 90px;
+    -webkit-border-radius: 0 0 120px 120px 0 0 90px 90px;
+    border-radius: 0 0 120px 120px / 0 0 90px 90px;
+    position: absolute;
+    bottom: 50px;
+    left: 38px;
+    box-shadow: 0 2px 0 rgba(255,255,255, 0.8);
+    -webkit-box-shadow: 0 2px 0 rgba(255,255,255, 0.8);
+    -moz-box-shadow: 0 2px 0 rgba(255,255,255, 0.8);
+    }
+    
+div.corner {
+    width: 10px;
+    height: 30px;
+    background: #222;
+    border-radius: 100px/160px;
+    -webkit-border-radius: 100px 160px;
+    -moz-border-radius: 100px/160px;
+    position: absolute;
+    top: -12px;
+    -webkit-transform: rotate(65deg);
+    -moz-transform: rotate(65deg);
+    left: -12px;
+    }
+    
+    div.corner.right {
+        left: 202px;
+        -webkit-transform: rotate(-65deg);
+        -moz-transform: rotate(-65deg);     
+        }
+*/
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes change-color {
+    from {background-color: red;}
+    to {background-color: yellow;}
+}
+
+/* Standard syntax */
+@keyframes change-color {
+    from {background-color: red;}
+    to {background-color: yellow;}
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes moving-around {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+}
+
+/* Standard syntax */
+@keyframes moving-around {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+}

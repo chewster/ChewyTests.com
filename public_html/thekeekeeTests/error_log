@@ -1,0 +1,21 @@
+1483739110: /home5/chewytes/public_html/thekeekeeTests/ssv3_payload_extractor-wApioklQD5.php startup
+[06-Jan-2017 21:47:55 UTC] PHP Fatal error:  Call to undefined function save_mod_rewrite_rules() in /home5/chewytes/public_html/thekeekeeTests/wp-content/plugins/mojo-marketplace-wp-plugin/inc/base.php on line 26
+[06-Jan-2017 22:45:37 UTC] PHP Fatal error:  Call to undefined function get_permalnk() in /home5/chewytes/public_html/thekeekeeTests/wp-content/themes/smart-magazine/index.php on line 51
+[07-Jan-2017 18:30:10 UTC] PHP Fatal error:  Call to undefined function get_permalnk() in /home5/chewytes/public_html/thekeekeeTests/wp-content/themes/smart-magazine/index.php on line 51
+[09-Jan-2017 15:32:30 UTC] PHP Fatal error:  Call to undefined function get_permalnk() in /home5/chewytes/public_html/thekeekeeTests/wp-content/themes/smart-magazine/index.php on line 51
+[09-Jan-2017 15:39:22 UTC] PHP Fatal error:  Call to undefined function get_permalnk() in /home5/chewytes/public_html/thekeekeeTests/wp-content/themes/smart-magazine/index.php on line 51
+[09-Jan-2017 15:56:57 UTC] PHP Fatal error:  Call to undefined function get_permalnk() in /home5/chewytes/public_html/thekeekeeTests/wp-content/themes/smart-magazine/index.php on line 51
+[09-Jan-2017 20:24:34 UTC] PHP Fatal error:  Call to undefined function get_permalnk() in /home5/chewytes/public_html/thekeekeeTests/wp-content/themes/smart-magazine/index.php on line 51
+[09-Jan-2017 20:30:19 UTC] PHP Fatal error:  Call to undefined function get_permalnk() in /home5/chewytes/public_html/thekeekeeTests/wp-content/themes/smart-magazine/index.php on line 51
+[09-Jan-2017 20:37:59 UTC] PHP Fatal error:  Call to undefined function get_permalnk() in /home5/chewytes/public_html/thekeekeeTests/wp-content/themes/smart-magazine/index.php on line 51
+[09-Jan-2017 20:43:04 UTC] PHP Fatal error:  Call to undefined function get_permalnk() in /home5/chewytes/public_html/thekeekeeTests/wp-content/themes/smart-magazine/index.php on line 51
+[10-Jan-2017 17:14:42 UTC] PHP Fatal error:  Call to undefined function get_permalnk() in /home5/chewytes/public_html/thekeekeeTests/wp-content/themes/smart-magazine/index.php on line 51
+[11-Feb-2017 06:22:56 UTC] PHP Fatal error:  Uncaught exception 'phpmailerException' with message 'Invalid address:  (setFrom) wordpress@' in /home5/chewytes/public_html/thekeekeeTests/wp-includes/class-phpmailer.php:1023
+Stack trace:
+#0 /home5/chewytes/public_html/thekeekeeTests/wp-includes/pluggable.php(352): PHPMailer->setFrom('wordpress@', 'WordPress', false)
+#1 /home5/chewytes/public_html/thekeekeeTests/wp-admin/includes/class-wp-automatic-updater.php(769): wp_mail('cmchiu.chiu@gma...', '[The Kee Kee] Y...', 'Howdy! Your sit...', '')
+#2 /home5/chewytes/public_html/thekeekeeTests/wp-admin/includes/class-wp-automatic-updater.php(501): WP_Automatic_Updater->send_email('success', Object(stdClass))
+#3 /home5/chewytes/public_html/thekeekeeTests/wp-admin/includes/class-wp-automatic-updater.php(470): WP_Automatic_Updater->after_core_update(Object(stdClass))
+#4 /home5/chewytes/public_html/thekeekeeTests/wp-includes/update.php(532): WP_Automatic_Updater->run()
+#5 [internal function]: wp_maybe_auto_update('')
+#6 /home5/chewytes/public_html/thekeekeeTests/wp-i in /home5/chewytes/public_html/thekeekeeTests/wp-includes/class-phpmailer.php on line 1023

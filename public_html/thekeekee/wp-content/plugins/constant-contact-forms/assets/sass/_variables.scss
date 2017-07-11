@@ -1,0 +1,41 @@
+//--------------------------------------------------------------
+//   COLORS
+//--------------------------------------------------------------
+
+// Primary palette
+$color-blue: #0074D9;
+$color-green: #2ECC40;
+$color-red: #FF4136;
+
+// Grayscale
+$color-black: #000;
+$color-gray: #aaa;
+$color-silver: #ddd;
+$color-white: #fff;
+
+// Theming
+$color-error: $color-red;
+$color-success: $color-green;
+
+// constant contact colors
+$color-sky-blue: #88C5E2;
+$color-chrome-yellow: #FFA901;
+$color-prussian-blue: #0078C3;
+$color-cc-blue: #1a5285;
+$color-alt-silver: #EFEFEE;
+
+// text
+$color-modal-alt-text: #606d78;
+$color-modal-header: #333333;
+$color-modal-text: #555555;
+$color-light-silver: #747e88;
+
+// box model
+$padding: 1em;
+
+// Breakpoints
+$breakpoints: (
+	'small':  767px,
+	'medium': 992px,
+	'large':  1200px
+) !default;
